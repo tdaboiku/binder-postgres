@@ -6,6 +6,6 @@ dependencies:
   - numpy
   - matplotlib
   - pandas
-  - postgres
+  - postgresql
   - ipython-sql
   - altair
