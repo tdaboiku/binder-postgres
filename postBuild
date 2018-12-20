@@ -1,2 +1,2 @@
-export PGDATA=~/pgsql/data
+export PGDATA=$HOME/pgsql/data
 mkdir -p "$PGDATA"
