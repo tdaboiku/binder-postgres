@@ -1,2 +1,2 @@
-export PGDATA=/var/lib/postgresql/data
+export PGDATA=/usr/local/pgsql/data
 mkdir -p "$PGDATA"
