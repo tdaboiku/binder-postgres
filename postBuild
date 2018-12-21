@@ -2,6 +2,3 @@
 export PGDATA=$HOME/pgsql/data
 mkdir -p "$PGDATA"
 pg_ctl initdb
-
-# start the server
-pg_ctl start -l pglog
