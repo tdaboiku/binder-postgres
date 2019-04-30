@@ -7,5 +7,6 @@ dependencies:
   - matplotlib
   - pandas
   - postgresql
+  - psycopg2
   - ipython-sql
   - altair
