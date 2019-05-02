@@ -2,3 +2,6 @@
 export PGDATA=$HOME/pgsql/data
 mkdir -p "$PGDATA"
 pg_ctl initdb
+
+# load example data
+psql -d postgres -f "data/load_movies.sql"
