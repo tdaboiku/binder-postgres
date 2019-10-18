@@ -1,5 +1,11 @@
 # Jupyter interface to Postgres
 
+This is a tool for writing SQL queries and executing them in an interactive notebook. It builds a portable Docker container that contains both Jupyter and a PostgreSQL server.
+
+The database is preloaded with some tables from the [DVD rental sample dataset](http://www.postgresqltutorial.com/postgresql-sample-database/).
+
+Julie has written a set of SQL exercises in [her fork](https://github.com/julizhu/sql-training-tool/) of the repo.
+
 ## Use with Binder
 
 This repo is compatible with mybinder.org. Click the link below to launch a public online instance.
