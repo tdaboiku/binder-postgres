@@ -6,5 +6,5 @@ pg_ctl initdb
 # load example data
 export PGDATA=$HOME/pgsql/data
 pg_ctl start -l pglog
-psql -d postgres -f "data/load_movies.sql"
+psql -d postgres -f "data/load_data.sql"
 pg_ctl stop
